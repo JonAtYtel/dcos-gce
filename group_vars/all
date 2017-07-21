@@ -1,20 +1,20 @@
 ---
-project: trek-trackr
+project: ytel-systems
 
-subnet: default-6f68d4d6fabcb680
+subnet: default
 
-login_name: ajazam
+login_name: jon
 
-bootstrap_public_ip: 10.132.0.2
+bootstrap_public_ip: 10.138.0.12
 
-zone: europe-west1-c
+zone: us-west1-a
 
 
 
 
 master_boot_disk_size: 10
 
-master_machine_type: n1-standard-2
+master_machine_type: n1-standard-1
 
 master_boot_disk_type: pd-standard
 
@@ -38,13 +38,13 @@ end_id: 0001
 
 gcloudbin: /usr/bin/gcloud
 
-image: 'centos-7-v20161027'
+image: 'centos-7-v20170719'
 
 image_project: 'centos-cloud'
 
 bootstrap_public_port: 8080
 
-cluster_name: cluster_name
+cluster_name: dcos_cluster
 
 scopes: "default=https://www.googleapis.com/auth/cloud-platform"
 
